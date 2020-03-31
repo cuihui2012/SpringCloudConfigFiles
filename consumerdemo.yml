@@ -30,3 +30,4 @@ mybatis:
 logging:
   level:
     com.cuihui.consumer.consumerdemo: DEBUG #打印sql语句
+  config: classpath:logback-spring.xml #读取日志配置文件
