@@ -10,6 +10,11 @@ spring:
     url: jdbc:oracle:thin:@192.144.186.134:1521:helowin
     username: test
     password: '{cipher}5b5136d1498f5b74829ed16e95f65e199908fbcb58100c810599fca2e84fc393'
+  rabbitmq: #配置RabbitMQ
+    host: 139.155.4.128
+    port: 5672
+    username: admin
+    password: admin
 server:
   port: 8091  #端口为该工程启动使用端口
 
